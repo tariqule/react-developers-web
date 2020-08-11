@@ -1,5 +1,13 @@
-.App {
+.Header {
   text-align: center;
+}
+.center {
+  align-self: center;
+}
+
+.Center {
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
