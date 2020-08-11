@@ -25,6 +25,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy-production": "react-scripts build && scp -r ./build/* tariq@138.197.129.96:/var/www/reactdevelopers.ca/html",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

@@ -2,7 +2,12 @@ import React from "react";
 import logo from "./logo.svg";
 import NavbarX from "./components/navbar";
 // import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import Apps from "./Pages/Apps";
 import Home from "./Pages/Home";
 import SignIn from "./Pages/SignIn";
@@ -13,9 +18,7 @@ function App() {
       {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
       <Switch>
-        <Route path="/apps">
-          <Apps />
-        </Route>
+        <Route path="/apps" render={() => <Apps />}></Route>
         <Route path="/sign-in">
           <SignIn />
         </Route>

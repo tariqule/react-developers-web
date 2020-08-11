@@ -14,15 +14,15 @@ function Home() {
   };
 
   return (
-    <Container>
+    <Container style={{ overflow: "hidden" }}>
       <Row className="Center">
-        <Col>
+        <Col xs={12} lg={6}>
           <h1 className="Header">
             We Build More Than Apps, We Build Businesses
           </h1>
         </Col>
-        <Col>
-          <Lottie options={defaultOptions} height={400} width={400} />
+        <Col xs={12} lg={6}>
+          <Lottie options={defaultOptions} />
         </Col>
       </Row>
       <h6 className="center pt-5">
@@ -49,7 +49,8 @@ function Home() {
         and best-suited team for your project. Contact us today and learn how
         software can revolutionize your business.
       </h6>
-      <Row className="d-flex justify-content-center w-100 mt-3">
+      <hr />
+      <Row className="d-flex justify-content-center w-100  p-5">
         <Button variant="primary" className="center" href="/sign-in">
           Sign In
         </Button>
