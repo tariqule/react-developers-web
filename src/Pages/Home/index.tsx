@@ -28,7 +28,7 @@ function Home() {
       <h6 className="center pt-5">
         React Developers CA (RDC) is a creative development company that builds
         robust iOS & Android mobile apps, custom software applications and
-        enterprise software.Vog is proudly Canadian and develops custom software
+        enterprise software.RDC is proudly Canadian and develops custom software
         applications that prioritize costs, analyze and mitigate risk, decrease
         failure rates, monitor progress, maximize returns, optimize processes,
         and increase operational efficiency. Our approach allows our clients to
