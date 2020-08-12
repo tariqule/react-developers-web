@@ -1,0 +1,27 @@
+.Header {
+  text-align: center;
+}
+.center {
+  align-self: center;
+}
+
+.Center {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card {
+  width: 17rem;
+}
+
+.CenterCatd {
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 15rem;
+  }
+}

@@ -1,9 +1,12 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
+import "./styles.css";
+
 const mybeeeimg = require("../../assets/img/mybee.png");
+
 function CardX(props: any) {
   return (
-    <Card style={{ width: "18rem" }} className={props.className}>
+    <Card className={"CenterCatd card"}>
       <Card.Img variant="top" src={mybeeeimg} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
